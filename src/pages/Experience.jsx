@@ -19,13 +19,13 @@ export default function Experience()
     {
       company: "F5",
       role: "Software Engineer Intern",
-      date: "Jun 2026 - Present",
+      date: "Jun 2026 - Sep 2026",
       location: "Seattle, WA",
       description: [
-        "Developed **Python** agent that analyzes multiple BIG-IP diagnostic snapshots in parallel, reducing troubleshooting workflows.",
-        "Engineered SSH stdio MCP transport, cutting cross-QKView feature comparison from **3 minutes** to **10 seconds** across **2** devices.",
-        "Implemented an MCP server that extracts targeted configuration signals from **12,000+** line config files using keyword navigation.",
-        " Designed a brace-depth-aware config parser that accurately counts object declarations across **8** traffic types without false positives.",
+        "Developed a **Python** & **TypeScript** agent that analyzes multiple QKViews in parallel, reducing troubleshooting workflows.",
+        "Designed MCP transport with 6 tools, cutting QKView diagnostic comparison from **12.2 minutes** to **1.5 minutes** across **5** devices.",
+        "Implemented a three-layer detection model, spanning **8** module types that extracts targeted signals from **100,000+** line QKViews.",
+        "Built a brace-depth-aware config parser that accurately counts object declarations across **20+** traffic types without false positives.",
       ],
       note: "Can't believe it still. First internship out of state and surprised I made it this far.",
       logo: "/images/experiences/f5.jpg",

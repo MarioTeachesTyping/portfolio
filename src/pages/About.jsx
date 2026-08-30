@@ -9,7 +9,7 @@ import { FaUnity, FaWindows } from "react-icons/fa6";
 import { SiBruno, SiPostman, SiGitkraken } from "react-icons/si"
 import { TbBrandCSharp, TbBrandThreejs, TbBrandNextjs } from "react-icons/tb";
 import { FaPython, FaJava, FaReact, FaFigma, FaDocker, FaAws, FaLinux, FaNodeJs, FaSpotify } from "react-icons/fa";
-import { SiBlazor, SiJavascript, SiTypescript, SiTailwindcss, SiBlender, SiCplusplus, SiAndroidstudio, SiMongodb, SiRobloxstudio, SiFastapi } from "react-icons/si";
+import { SiKubernetes, SiJavascript, SiTypescript, SiTailwindcss, SiBlender, SiCplusplus, SiAndroidstudio, SiMongodb, SiRobloxstudio, SiFastapi } from "react-icons/si";
 
 import Tooltip from "../components/Tooltip";
 import { getLastFmTopTracks, getLastFmCurrentTrack, getLastFmTopAlbums } from "../scripts/lastfm";
@@ -294,10 +294,10 @@ export default function About()
         <div className="flex flex-wrap justify-center gap-8 text-white">
           <Tooltip text="Linux"><FaLinux className="w-16 h-16 wiggle-hover" /></Tooltip>
           <Tooltip text="Node.js"><FaNodeJs className="w-16 h-16 wiggle-hover" /></Tooltip>
-          <Tooltip text="Blazor"><SiBlazor className="w-16 h-16 wiggle-hover" /></Tooltip>
+          <Tooltip text="Kubernetes"><SiKubernetes className="w-16 h-16 wiggle-hover" /></Tooltip>
           <Tooltip text="MongoDB"><SiMongodb className="w-16 h-16 wiggle-hover" /></Tooltip>
           <Tooltip text="Postman"><SiPostman className="w-16 h-16 wiggle-hover" /></Tooltip>
-          <Tooltip text="Bruno"><SiBruno className="w-16 h-16 wiggle-hover" /></Tooltip>
+          {/* <Tooltip text="Bruno"><SiBruno className="w-16 h-16 wiggle-hover" /></Tooltip> */}
           <Tooltip text="Figma"><FaFigma className="w-16 h-16 wiggle-hover" /></Tooltip>
           <Tooltip text="Amazon Web Services"><FaAws className="w-16 h-16 wiggle-hover" /></Tooltip>
           <Tooltip text="Three.js"><TbBrandThreejs className="w-16 h-16 wiggle-hover" /></Tooltip>
@@ -305,7 +305,7 @@ export default function About()
           <Tooltip text="Unity"><FaUnity className="w-16 h-16 wiggle-hover" /></Tooltip>
           <Tooltip text="Roblox Studio"><SiRobloxstudio className="w-16 h-16 wiggle-hover" /></Tooltip>
           <Tooltip text="Android Studio"><SiAndroidstudio className="w-16 h-16 wiggle-hover" /></Tooltip>
-          <Tooltip text="GitKraken"><SiGitkraken className="w-16 h-16 wiggle-hover" /></Tooltip>
+          {/* <Tooltip text="GitKraken"><SiGitkraken className="w-16 h-16 wiggle-hover" /></Tooltip> */}
         </div>
       </div>
 

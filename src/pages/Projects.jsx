@@ -8,9 +8,10 @@ import { FaUnity } from "react-icons/fa6";
 import { BiLogoPostgresql, BiLogoFlask } from "react-icons/bi";
 import { TbBrandThreejs, TbBrandNextjs } from "react-icons/tb";
 import { RiTeamLine, RiGeminiFill, RiSupabaseFill } from "react-icons/ri";
-import { FaPython, FaReact, FaDocker, FaGoogle, FaMedal, FaJava, FaAws, FaLastfmSquare, FaAngular, FaRobot } from 'react-icons/fa';
+import { FaPython, FaReact, FaDocker, FaGoogle, FaMedal, FaJava, FaAws, FaLastfmSquare, FaAngular, FaRobot, FaNodeJs } from 'react-icons/fa';
 import { SiOpencv, SiMediapipe, SiCplusplus, SiArduino, SiOllama, SiLangchain, SiTailwindcss, SiJavascript, SiTypescript, SiPrisma, SiBlender,
-         SiNginx, SiMinio, SiExpress, SiMongodb, SiFastapi, SiPosthog, SiMapbox, SiLeaflet, SiNvidia, SiAndroidstudio, SiYolo, SiNestjs, SiTauri } from 'react-icons/si';
+         SiNginx, SiMinio, SiExpress, SiMongodb, SiFastapi, SiPosthog, SiMapbox, SiLeaflet, SiNvidia, SiAndroidstudio, SiYolo, SiNestjs, SiTauri,
+         SiCodemirror, SiZod } from 'react-icons/si';
 
 import Tooltip from "../components/Tooltip";
 
@@ -109,22 +110,32 @@ export default function Projects()
       link: "https://devpost.com/software/fruit-slayer"
     },
     {
-      name: "MarioGPT",
-      image: "/images/projects/mario.png",
-      description: "Full-stack AI chatbot focused on the Mario franchise. Supports conversational question & answer, and more.",
-      tech: [<Tooltip text="Python"><FaPython key="python" /></Tooltip>, <Tooltip text="Llama"><SiOllama key="llama" /></Tooltip>, <Tooltip text="LangChain"><SiLangchain key="langchain" /></Tooltip>, 
-             <Tooltip text="FastAPI"><SiFastapi key="fastapi" /></Tooltip>, <Tooltip text="MongoDB"><SiMongodb key="mongodb" /></Tooltip>, <Tooltip text="Next.js"><TbBrandNextjs key="nextjs" /></Tooltip>
+      name: "LeetBytes",
+      image: "/videos/projects/leetbytes.mp4",
+      is_video: true,
+      description: "Gamified LeetCode. Play minigames to unlock hints to help you solve questions.",
+      tech: [<Tooltip text="Next.js"><TbBrandNextjs key="nextjs" /></Tooltip>, <Tooltip text="React"><FaReact key="react" /></Tooltip>, <Tooltip text="TypeScript"><SiTypescript key="typescript" /></Tooltip>, 
+             <Tooltip text="Node.js"><FaNodeJs key="nodejs" /></Tooltip>, <Tooltip text="CodeMirror"><SiCodemirror key="codemirror" /></Tooltip>, <Tooltip text="Zod"><SiZod key="zod" /></Tooltip>
       ],
-      link: "https://github.com/MarioTeachesTyping/MarioGPT"
+      link: "https://github.com/MarioTeachesTyping/LeetBytes"
     },
-    {
-      name: "MyGameList",
-      image: "/images/projects/mygamelist.jpg",
-      description: "Interactive webpage enabling users to rank video games and share customizable profiles.",
-      tech: [<Tooltip text="Angular"><FaAngular key="angular" /></Tooltip>, <Tooltip text="TypeScript"><SiTypescript key="typescript" /></Tooltip>, <Tooltip text="NestJS"><SiNestjs key="nestjs" /></Tooltip>,
-             <Tooltip text="PostgreSQL"><BiLogoPostgresql key="postgresql" /></Tooltip>, <Tooltip text="Prisma"><SiPrisma key="prisma" /></Tooltip>, <Tooltip text="AWS"><FaAws key="aws" /></Tooltip>
-      ]
-    },
+    // {
+    //   name: "MarioGPT",
+    //   image: "/images/projects/mario.png",
+    //   description: "Full-stack AI chatbot focused on the Mario franchise. Supports conversational question & answer, and more.",
+    //   tech: [<Tooltip text="Python"><FaPython key="python" /></Tooltip>, <Tooltip text="Llama"><SiOllama key="llama" /></Tooltip>, <Tooltip text="LangChain"><SiLangchain key="langchain" /></Tooltip>, 
+    //          <Tooltip text="FastAPI"><SiFastapi key="fastapi" /></Tooltip>, <Tooltip text="MongoDB"><SiMongodb key="mongodb" /></Tooltip>, <Tooltip text="Next.js"><TbBrandNextjs key="nextjs" /></Tooltip>
+    //   ],
+    //   link: "https://github.com/MarioTeachesTyping/MarioGPT"
+    // },
+    // {
+    //   name: "MyGameList",
+    //   image: "/images/projects/mygamelist.jpg",
+    //   description: "Interactive webpage enabling users to rank video games and share customizable profiles.",
+    //   tech: [<Tooltip text="Angular"><FaAngular key="angular" /></Tooltip>, <Tooltip text="TypeScript"><SiTypescript key="typescript" /></Tooltip>, <Tooltip text="NestJS"><SiNestjs key="nestjs" /></Tooltip>,
+    //          <Tooltip text="PostgreSQL"><BiLogoPostgresql key="postgresql" /></Tooltip>, <Tooltip text="Prisma"><SiPrisma key="prisma" /></Tooltip>, <Tooltip text="AWS"><FaAws key="aws" /></Tooltip>
+    //   ]
+    // },
     {
       name: "Portfolio-V2",
       image: "/videos/projects/portfolio.mp4",
