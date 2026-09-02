@@ -23,7 +23,7 @@ export default function Experience()
       location: "Seattle, WA",
       description: [
         "Developed a **Python** & **TypeScript** agent that analyzes multiple QKViews in parallel, reducing troubleshooting workflows.",
-        "Designed MCP transport with 6 tools, cutting QKView diagnostic comparison from **12.2 minutes** to **1.5 minutes** across **5** devices.",
+        "Designed MCP transport with **8** tools, cutting multi QKView analysis from **3m 47s** to **45.3s** leading to an overall **80%** increase.",
         "Implemented a three-layer detection model, spanning **8** module types that extracts targeted signals from **100,000+** line QKViews.",
         "Built a brace-depth-aware config parser that accurately counts object declarations across **20+** traffic types without false positives.",
       ],
